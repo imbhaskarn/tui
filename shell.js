@@ -1,6 +1,4 @@
 const readline = require("readline");
-
-const { stdin: input, stdout: output, stdout, stderr } = require("process");
 const rl = readline.createInterface({ input, output, terminal: true });
 const os = require("os");
 const process = require('process');
